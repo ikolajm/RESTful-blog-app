@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+<div class="container index-container">
+    <h1 class="recent-post">Recent Posts:</h1> <hr>
+    <!--For each blog object returned, create blog div-->
+    <div class="posts">
+        <% blogs.forEach(function(blog) { %>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="<%= blog.image %>" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><%= blog.title %></h5>
+            <span><%= blog.created.toDateString() %></span>
+            <p class="card-text"><%= blog.body.substring(0, 50) %>...</p>
+            <a href="blogs/<%= blog._id %>">Read more</a>
+          </div>
+        </div>
+     <% }); %>
+    </div>
+</div>
+
+
+<% include partials/footer %>

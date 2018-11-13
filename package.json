@@ -1,0 +1,18 @@
+{
+  "name": "restfulblog",
+  "version": "1.0.0",
+  "description": "A blog site created to practice RESTful techniques",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Ikola",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.11"
+  }
+}

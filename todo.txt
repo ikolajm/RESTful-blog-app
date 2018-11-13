@@ -1,0 +1,41 @@
+- Setup blog app
+
+- Create a blog model
+
+- Add index route
+
+- Add index template
+
+- Add header and footer partials
+
+- Include bootstrap 4
+
+- Add nav bar
+
+- Add new route
+
+- Add create route
+
+- Add show route
+
+- Add show template
+
+- Add links
+
+- Style show template
+
+- Add edit route
+
+- Add edit form
+
+- Add update route
+
+- Add update form
+
+- Add method override
+
+- Add destroy route
+
+- Add edit and destroy links
+
+- Style completely
